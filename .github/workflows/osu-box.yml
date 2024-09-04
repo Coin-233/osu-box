@@ -24,9 +24,9 @@ jobs:
       - name: Update Gist
         run: npm start
         env:
-          GIST_ID: f53231aed6896f053ecbc32ba77b4973
-          OSU_USERNAME: weikuu
-          OSU_MODE: osu
+          GIST_ID: 36bfccc74e8afad7cac455490f7e00e0
+          OSU_USERNAME: Coin233
+          OSU_MODE: mania
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
